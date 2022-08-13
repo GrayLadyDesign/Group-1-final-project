@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+header, footer {
+    background-color: antiquewhite;
+}
+.carousel-item > img {
+    height: 700px;
+    min-height: 300px;
+    object-fit: cover;
+}
