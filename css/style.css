@@ -18,7 +18,14 @@ footer {
     font-size: 50px;
     padding: 10px;
 }
-body {
+p {
+    font-family: 'Karla';
+    font-size: 18px;
+}
+.quote {
+    font-family: 'Corben';
+}
+h1 {
     font-family: 'Corben';
 }
 section {
