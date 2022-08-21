@@ -24,3 +24,9 @@ body {
 section {
     margin: 50px 120px
 }
+.appStore {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 20px;
+}
