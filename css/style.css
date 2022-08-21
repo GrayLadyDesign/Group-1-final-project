@@ -1,11 +1,26 @@
 li {
     list-style: none;
 }
-header, footer {
-    background-color: antiquewhite;
+.navbar {
+    background-color: #DCEED1;
+}
+footer {
+    background-color: #DCEED1;
+    height: 100px;
 }
 .carousel-item > img {
     height: 700px;
     min-height: 300px;
     object-fit: cover;
+}
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    padding: 10px;
+}
+body {
+    font-family: 'Corben';
+}
+section {
+    margin: 50px 120px
 }
