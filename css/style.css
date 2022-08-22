@@ -14,9 +14,9 @@ footer {
     object-fit: cover;
 }
 .aboutImg {
-    height: 600px;
+    height: 500px;
     width: auto;
-    padding: 20px;
+    padding: 50px;
 }
 .navbar-brand {
     font-family: 'Monoton', cursive;
@@ -40,7 +40,7 @@ section {
     margin: 50px 90px
 }
 .contains {
-    margin: 0px 20px;
+    margin: 40px 20px;
 }
 .appStore {
     display: flex;
@@ -51,6 +51,7 @@ section {
 .availableFeatures {
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
 }
 .feature {
     display: flex;
@@ -58,7 +59,11 @@ section {
     justify-content: center;
     align-content: center;
     column-gap: 50px;
+    padding: 20px;
 }
 .selection {
     flex-direction: row-reverse;
+}
+.featureImg {
+    max-height: 400px;
 }
