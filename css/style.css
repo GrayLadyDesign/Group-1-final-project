@@ -13,6 +13,11 @@ footer {
     min-height: 300px;
     object-fit: cover;
 }
+.aboutImg {
+    height: 600px;
+    width: auto;
+    padding: 20px;
+}
 .navbar-brand {
     font-family: 'Monoton', cursive;
     font-size: 50px;
@@ -32,11 +37,28 @@ h3 {
     font-family: 'Corben';
 }
 section {
-    margin: 50px 120px
+    margin: 50px 90px
+}
+.contains {
+    margin: 0px 20px;
 }
 .appStore {
     display: flex;
     justify-content: center;
     align-content: center;
     column-gap: 20px;
+}
+.availableFeatures {
+    display: flex;
+    flex-direction: column;
+}
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px;
+}
+.selection {
+    flex-direction: row-reverse;
 }
