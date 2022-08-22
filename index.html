@@ -23,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="#reviews">Reviews</a>
               </li>
             </ul>
           </div>
@@ -77,9 +77,8 @@
     </div>
 
     <section class="about">
-      <h1>About</h1>
-      <p class="quote"><b>"Hello, I will be your STEWARD today, what are you sipping?"</b></p>
-      <!--in quotes and bold-->
+      <h1 class="aboutHeader" id="about">About</h1>
+      <h3>"Hello, I will be your STEWARD today, what are you sipping?"</h3>
       <p>STEWARD is a beverage journal that keeps track of likes, dislikes, tasting notes, 
         and all the subtle nuances and details about the drink as the user would like to 
         document. This is an app with the purpose of journaling about your  beverage 
@@ -109,10 +108,13 @@
                 <a href="https://www.bmj.com/content/378/bmj-2021-069503">** Sense of taste/smell study</a>
     </section>
     <section class="features">
-      <h1>Features</h1>
+      <h1 class="featuresHeader" id="features">Features</h1>
+      <h3>Feature 1</h3>
+      <h3>Feature 2</h3>
+      <h3>Feature 3</h3>
     </section>
-    <section class="reviews">
-      <h1>Reviews</h1>
+    <section class="reviews" id="reviews">
+      <h1 class="reviewsHeader">Reviews</h1>
     </section>
 
     <section class="appStore">
@@ -123,5 +125,10 @@
     <footer>
       
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
