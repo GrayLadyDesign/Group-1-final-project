@@ -79,3 +79,13 @@ section {
     width: 300px;
     padding: 20px;
 }
+.reviewCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reviewImg {
+    height: 200px;
+}
